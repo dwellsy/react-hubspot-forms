@@ -4,7 +4,25 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe react-hubspot-forms here.
+# React-hubspot-forms 
+
+react-hubspot-forms is a simple, functional way to incorporate Hubspot forms into React-based
+application. 
+
+If you have a Hubspot account and are trying to use their JS library, there's quite a lot of 
+work to do to incorporate it, so we at Dwellsy bundled it into a reusable component to make
+it more easy to add to pages, ergo more easy to leverage Hubspot's service. 
+
+# Installation
+`npm i -S react-hubspot-forms`
+
+```
+import { HubspotForm } from 'react-hubspot-form'
+
+const Form = ({ portal, form }) => {
+  <HubspotForm portalId={portalId} formId={form} />
+}
+```
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
