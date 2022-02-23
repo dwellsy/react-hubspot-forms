@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import { HubspotForm } from './HubspotForm';
+import { HubspotForm } from './';
 
 export const Example = () => {
-
   const [ portalId, setPortalId ] = useState('');
   const [ formId, setFormId ] = useState('');
 

@@ -18,17 +18,18 @@ export const HubspotForm = (props) => {
     script.src = scriptSrc;
 
     document.body.appendChild(script);
-
-    script.addEventListener("load", () => {
+    const addListener = () => {
       window.hbspt.forms.create({
         portalId: portalId,
         formId: formId,
         target: "#hubspotform",
       });
       if(window.hbspt?.forms) setLoading(false);
-    });
+    };
 
-    return () => script.removeEventListener("load");
+    script.addEventListener("load", addListener);
+
+    return () => script.removeEventListener("load", addListener);
   }, [portalId, formId, scriptSrc]);
 
   return (

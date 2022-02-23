@@ -26,11 +26,11 @@
   "devDependencies": {
     "nwb": "0.25.x",
     "prop-types": "^15.8.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^16.8",
+    "react-dom": "^16.8",
     "semantic-release": "^19.0.2"
   },
-  "author": "",
+  "author": "Barry melton <barry@dwellsy.com>",
   "homepage": "",
   "license": "MIT",
   "repository": {
@@ -38,6 +38,10 @@
     "url": "https://github.com/dwellsy/react-hubspot-forms.git"
   },
   "keywords": [
-    "react-component"
+    "react-component",
+    "hubspot",
+    "forms",
+    "react",
+    "dwellsy"
   ]
 }
