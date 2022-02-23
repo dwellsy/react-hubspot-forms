@@ -1,6 +1,6 @@
 {
   "name": "react-hubspot-forms",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "react-hubspot-forms React component",
   "main": "lib/index.js",
   "module": "es/index.js",
