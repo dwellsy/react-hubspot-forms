@@ -17,7 +17,7 @@ it more easy to add to pages, ergo more easy to leverage Hubspot's service.
 `npm i -S react-hubspot-forms`
 
 ```
-import { HubspotForm } from 'react-hubspot-form'
+import { HubspotForm } from 'react-hubspot-forms'
 
 const Form = ({ portal, form }) => {
   <HubspotForm portalId={portalId} formId={form} />
